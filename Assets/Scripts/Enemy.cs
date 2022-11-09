@@ -4,7 +4,8 @@ using UnityEngine;
 
 public class Enemy : MonoBehaviour
 {
-    [SerializeField] private float health, maxHealth = 3f;
+    private float health;
+    [SerializeField] private float maxHealth = 3f;
     [SerializeField] private GameObject enemyShip;
     void Start()
     {

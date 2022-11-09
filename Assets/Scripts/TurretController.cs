@@ -15,7 +15,7 @@ public class TurretController : MonoBehaviour
     [SerializeField] private float RightLimit = 120f;
     [SerializeField] private float MaxElevation = 60f;
     [SerializeField] private float MaxDepression = 10;
-
+    [SerializeField] private float fireRate = 30f;
     
     private Transform cameraTransform;
     private Vector3 AimPosition = Vector3.zero;
@@ -31,7 +31,6 @@ public class TurretController : MonoBehaviour
     private float maxRange = 3000f;
     private float bulletHitMissDisatance = 200f;
     private float timeSinceLastShot = 0f;
-    private float fireRate = 30f;
 
     private int playerLayer;
 
